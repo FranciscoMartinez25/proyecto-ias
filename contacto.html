@@ -1,0 +1,71 @@
+<!-- En esta sección los usuarios pueden comunciarse con los administadores por diversos motivos -->
+<!doctype html>
+<html lang="es">
+  <header>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contacto</title>
+    <h1>Instituto de Asistencia Social - IAS</h1>
+    <h2>Organismo de Control de Juegos de Azar - Formosa</h2>
+  </header>
+  <body>
+    <main>
+      <nav>
+        <a href="index.html">Inicio</a> <a href="sobreias.html">Sobre el IAS</a>
+        <a href="funcion.html">Funciones</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <h2>Contacto</h2>
+      <section>
+        <h3>Información de Contacto</h3>
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" required /><br /><br />
+
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" required /><br /><br />
+
+          <label for="email">Correo Electronico:</label>
+          <input type="email" required /><br /><br />
+
+          <label for="motivo">Motivo de Consulta</label>
+          <select name="motivo" id="motivo" required>
+            <option value="">Elija una opción</option>
+            <option>Información</option>
+            <option>Reclamos</option>
+            <option>Solicitud de Permisos</option>
+            <option>Otros</option></select
+          ><br /><br />
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            placeholder="Su consulta aquí, porfavor..."
+            required
+          ></textarea
+          ><br /><br />
+          <button type="submit">Enviar</button>
+        </form>
+        <br /><br />
+        <details>
+          <p>
+            Atencion especial:Viernes 18:00hs. Guardia Administrativas: Sabados
+            de 8:00 hs a 12 hs.
+          </p>
+        </details>
+        <br /><br />
+      </section>
+
+      <section>
+        <h3>Ubicación</h3>
+        <a href="https://maps.app.goo.gl/6Yg1PoNRgCRpVUz89">Ver Ubicación</a
+        ><br /><br />
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <h1>&copy; 2026</h1>
+  </footer>
+</html>

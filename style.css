@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+ul,ol,li{
+    font-size: 20px;
+}
+
+table{
+    font-size: 20px;
+}
+header{
+    background-color: aqua;
+   padding: 1px;
+   text-align: center;
+}
+nav{
+    background-color: greenyellow;
+    padding:30px;
+    font-size: 25px;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+}
+p,a{
+    font-size: 20px;
+    line-height:1.5;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+img{
+    float:left;
+    width:300px;
+    height: 300px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+footer{
+    clear: both;
+    background-color: cyan;
+    text-align: center;
+    padding: 46px;
+}

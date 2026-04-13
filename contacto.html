@@ -1,25 +1,33 @@
 <!-- En esta sección los usuarios pueden comunciarse con los administadores por diversos motivos -->
-<!doctype html>
-<html lang="es">
-  <header>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Contacto</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+</body>
+</html>
+  
+  <body>
+  <div class="container"><header>
     <h1>Instituto de Asistencia Social - IAS</h1>
     <h2>Organismo de Control de Juegos de Azar - Formosa</h2>
   </header>
-  <body>
     <main>
       <nav>
-        <a href="index.html">Inicio</a> <a href="sobreias.html">Sobre el IAS</a>
-        <a href="funcion.html">Funciones</a>
-        <a href="contacto.html">Contacto</a>
+          <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobreias.html">Sobre el IAS</a></li>
+          <li><a href="funcion.html">Funciones</a></li>
+          <li><a href="contacto.html">Contacto</a></li>  
+        </ul>
       </nav>
       <h2>Contacto</h2>
       <section>
         <h3>Información de Contacto</h3>
-        <form action="#" method="post">
+        <form action="#" method="post" id="#formulario-contacto">
           <label for="nombre">Nombre:</label>
           <input type="text" required /><br /><br />
 
@@ -37,7 +45,7 @@
             <option>Solicitud de Permisos</option>
             <option>Otros</option></select
           ><br /><br />
-          <label for="mensaje">Mensaje</label>
+          <label for="mensaje">Mensaje:</label><br>
           <textarea
             name="mensaje"
             id="mensaje"
@@ -63,9 +71,8 @@
         ><br /><br />
       </section>
     </main>
+    <footer>
+      <h1>&copy; 2026</h1>
+    </footer></div>
   </body>
-
-  <footer>
-    <h1>&copy; 2026</h1>
-  </footer>
 </html>
